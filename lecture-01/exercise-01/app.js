@@ -2,28 +2,21 @@ var names = ['John', 'Ruth', 'Peter'];
 
 var datesOfBirth = [23, 35, 40];
 
-for (var i = 0; i < names.length; i++) {
-  console.log(names[i]);
+var largest = datesOfBirth[0];
+var smallest = datesOfBirth[0];
+
+for (var i = 0; i < datesOfBirth.length; i++) {
+
+  if (datesOfBirth[i] > largest) {
+      largest = datesOfBirth[i];
+    } 
+    else if(datesOfBirth[i] < smallest) {
+      smallest = datesOfBirth[i];
+    }
 }
 
-
-
-numbers = [2, 4, 9, 2, 0, 16, 24]
-
-var largest = numbers[0];
-var smallest = numbers[0];
-
-for (var i = 1; i < numbers.length; i++) {
-
-    if (numbers[i] > largest) {
-        largest = numbers[i];
-    }
-    else if(numbers[i] < smallest) {
-        smallest = numbers[i];
-    }
-
-    
-
+for (var i = 0; i < names.length; i++) {
+  console.log(names[i]);
 }
 
 console.log(largest);
