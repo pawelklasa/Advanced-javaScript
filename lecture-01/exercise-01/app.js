@@ -27,4 +27,4 @@ for (var i = 1; i < numbers.length; i++) {
 }
 
 console.log(largest);
-    console.log(smallest);
+console.log(smallest);
