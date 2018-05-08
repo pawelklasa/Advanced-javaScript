@@ -1,12 +1,4 @@
-var names = ['John', 'Ruth', 'Peter', 
-{
-  name: 'Pav',
-  surname: 'Klasa'
-},
-{
-  something: 3
-}
-];
+var names = ['John', 'Ruth', 'Peter'];
 
 var datesOfBirth = [23, 35, 40];
 
