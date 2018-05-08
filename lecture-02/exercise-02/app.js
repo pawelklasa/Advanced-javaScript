@@ -39,6 +39,6 @@ let newArray = [john, ruth, peter];
 
 
 
-console.log(john.doSomething());
+console.log(ruth.doSomething());
 
 console.log(newArray);
