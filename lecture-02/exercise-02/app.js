@@ -38,7 +38,6 @@ Person.prototype.doSomething = function() {
 let newArray = [john, ruth, peter];
 
 
-
 console.log(ruth.doSomething());
 
 console.log(newArray);
