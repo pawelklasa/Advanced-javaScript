@@ -37,20 +37,21 @@ Person.prototype.doSomething = function() {
   return `Welcome ${this.name} you are ${this.age} years old`;
 }
 
-// function findMinMax(newArray) {
-//   let min = newArray[0].y, max = newArray[0].y;
+function findMinMax(arr) {
+  let min = arr[0].y, max = arr[0].y;
 
-//   for (let i = 1, len = newArray.length; i < len; i++) {
-//     let v = newArray[i].y;
-//     min = (v < min) ? v : min;
-//     max = (v > max) ? v : max;
-//   }
+  for (let i = 1, len = arr.length; i < len; i++) {
+    let v = arr[i].y;
+    min = (v < min) ? v : min;
+    max = (v > max) ? v : max;
+  }
 
-//   return [min, max];
+  return [min, max];
+  
+}
 
+console.log(findMinMax(newArray));
 
-
-
-console.log(ruth.doSomething());
+console.log(doSomething(newArray));
 
 console.log(newArray);
