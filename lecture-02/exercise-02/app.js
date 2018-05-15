@@ -47,7 +47,7 @@ Person.prototype.doSomething = function() {
 //   }
 
 //   return [min, max];
-}
+
 
 
 
