@@ -31,11 +31,24 @@ let john = new Person(22, 'John');
 let ruth = new Person(25, 'Ruth');
 let peter = new Person(30, 'Peter');
 
+let newArray = new Array(john, ruth, peter);
+
 Person.prototype.doSomething = function() {
   return `Welcome ${this.name} you are ${this.age} years old`;
 }
 
-let newArray = [john, ruth, peter];
+// function findMinMax(newArray) {
+//   let min = newArray[0].y, max = newArray[0].y;
+
+//   for (let i = 1, len = newArray.length; i < len; i++) {
+//     let v = newArray[i].y;
+//     min = (v < min) ? v : min;
+//     max = (v > max) ? v : max;
+//   }
+
+//   return [min, max];
+}
+
 
 
 console.log(ruth.doSomething());
